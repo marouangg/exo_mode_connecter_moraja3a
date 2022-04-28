@@ -15,7 +15,7 @@ namespace exo_mode_connecter_moraja3a
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3());
+            Application.Run(new Form4());
         }
     }
 }
