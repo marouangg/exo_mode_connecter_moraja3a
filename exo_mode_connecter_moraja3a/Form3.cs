@@ -12,6 +12,7 @@ namespace exo_mode_connecter_moraja3a
 {
     public partial class Form3 : Form
     {
+        
         public Form3()
         {
             InitializeComponent();

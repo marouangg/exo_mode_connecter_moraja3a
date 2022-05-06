@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using CrystalDecisions.CrystalReports.Engine;
 
 namespace exo_mode_connecter_moraja3a
 {
@@ -402,6 +403,20 @@ namespace exo_mode_connecter_moraja3a
             service();
             empoye("");
             empolye2();
+        }
+        void cry(ReportClass cr)
+        {
+            //cr.SetDatabaseLogon("sa", "123456");
+            //Form5 f = new Form5(cr);
+            //f.Show();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //lst_Empolye cr = new lst_Empolye();
+            //cry(cr);
+            //cr.SetDatabaseLogon("sa", "123456");
+            //Form5 f = new Form5(cr);
+            //f.Show();
         }
     }
 }

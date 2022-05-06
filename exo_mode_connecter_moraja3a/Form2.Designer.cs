@@ -62,6 +62,7 @@
             this.Rechercher = new System.Windows.Forms.Label();
             this.combo_service = new System.Windows.Forms.ComboBox();
             this.Service = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pnl_save.SuspendLayout();
             this.pnl_miseajour.SuspendLayout();
             this.pnl_details.SuspendLayout();
@@ -390,11 +391,22 @@
             this.Service.TabIndex = 0;
             this.Service.Text = "Service";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(526, 605);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 41);
+            this.button1.TabIndex = 39;
+            this.button1.Text = "Impimer";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1038, 688);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pnl_save);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.pnl_miseajour);
@@ -449,5 +461,6 @@
         private System.Windows.Forms.Label Rechercher;
         private System.Windows.Forms.ComboBox combo_service;
         private System.Windows.Forms.Label Service;
+        private System.Windows.Forms.Button button1;
     }
 }
